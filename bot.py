@@ -4,8 +4,8 @@ from discord.ext import commands
 
 #Declares some important variables.
 bot = commands.Bot(command_prefix='mge!')
-devid = '303667865863716865'
-token = 'NDQ2MTQxNjkwNDU0MDgxNTM2.Dd0tqg.uA8ThL8LUbZmP6DzRNBWgb8MBx8'
+devid = ''
+token = ''
 
 #Notifies the console of a successful log-in, and sets the bot's playing status.
 @bot.event
