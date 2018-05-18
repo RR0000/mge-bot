@@ -160,5 +160,83 @@ async def bubbleslime():
     embed.set_image(url="http://mgewiki.com/images/a/ac/Bubble_Slime_eng3.png")
     await bot.say(embed=embed)
 
+@bot.command()
+async def caitsith():
+    embed=discord.Embed(title="Cait Sith", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/7/74/Cait_Sith_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cancer():
+    embed=discord.Embed(title="Cancer", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/2/2d/Cancer_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def centaur():
+    embed=discord.Embed(title="Centaur", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/9/93/Centaur_eng2.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def charybdis():
+    embed=discord.Embed(title="Charybdis", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/a/a2/Charybdis_eng2.PNG")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cheshirecat():
+    embed=discord.Embed(title="Cheshire Cat", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/2/25/Cheshire_Cat_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def chimaera():
+    embed=discord.Embed(title="Chimaera", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/2/29/Chimaera_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def chochinobake():
+    embed=discord.Embed(title="Chochin-Obake", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/1/17/Chochin-Obake_eng1.jpg")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cockatrice():
+    embed=discord.Embed(title="Cockatrice", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/d/d3/Cockatrice_eng2.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def crowtengu():
+    embed=discord.Embed(title="Crow Tengu", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/f/fe/Crow_Tengu_eng2.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cusith():
+    embed=discord.Embed(title="Cu Sith", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/b/be/Cu_Sith_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cupid():
+    embed=discord.Embed(title="Cupid", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/9/91/Cupid_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cursedsword():
+    embed=discord.Embed(title="Cursed Sword", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/f/fe/Cursed_Sword_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def cyclops():
+    embed=discord.Embed(title="Cyclops", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/0/0d/Cyclops_eng2.png")
+    await bot.say(embed=embed)
+
 #Starts the bot.
 bot.run(token)
