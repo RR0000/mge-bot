@@ -112,5 +112,53 @@ async def automaton():
     embed.set_image(url="http://mgewiki.com/images/5/59/Automaton_eng1.png")
     await bot.say(embed=embed)
 
+@bot.command()
+async def baphomet():
+    embed=discord.Embed(title="Baphomet", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/e/e1/Baphomet_eng3.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def barometz():
+    embed=discord.Embed(title="Barometz", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/b/be/Barometz_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def basilisk():
+    embed=discord.Embed(title="Basilisk", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/5/56/Basilisk_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def beelzebub():
+    embed=discord.Embed(title="Beelzebub", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/f/f7/Beelzebub_eng2.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def bicorn():
+    embed=discord.Embed(title="Bicorn", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/1/19/Bicorn_eng1.jpg")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def blackharpy():
+    embed=discord.Embed(title="Black Harpy", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/3/3e/Black_Harpy_eng3.png")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def blueoni():
+    embed=discord.Embed(title="Blue Oni", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/9/9c/Blue_Oni_eng1.jpg")
+    await bot.say(embed=embed)
+
+@bot.command()
+async def bubbleslime():
+    embed=discord.Embed(title="Bubble Slime", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/a/ac/Bubble_Slime_eng3.png")
+    await bot.say(embed=embed)
+
 #Starts the bot.
 bot.run(token)
