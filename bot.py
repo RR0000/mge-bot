@@ -161,6 +161,12 @@ async def bubbleslime():
     await bot.say(embed=embed)
 
 @bot.command()
+async def bunyip():
+    embed=discord.Embed(title="Bunyip", color=0x896392)
+    embed.set_image(url="http://mgewiki.com/images/3/38/Bunyip_eng1.png")
+    await bot.say(embed=embed)
+
+@bot.command()
 async def caitsith():
     embed=discord.Embed(title="Cait Sith", color=0x896392)
     embed.set_image(url="http://mgewiki.com/images/7/74/Cait_Sith_eng1.png")
